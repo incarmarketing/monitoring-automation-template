@@ -852,6 +852,59 @@ button.kpi-card {
   overflow-wrap: anywhere;
 }
 
+.stability-safeguards {
+  display: grid;
+  gap: 11px;
+}
+
+.stability-safeguards p {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.stability-list {
+  display: grid;
+  gap: 8px;
+}
+
+.stability-item {
+  display: grid;
+  gap: 3px;
+  padding: 10px 11px;
+  border: 1px solid #d7e1f0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff, #f8fbff);
+}
+
+.stability-item b {
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.stability-item span {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.doc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.doc-link svg {
+  width: 14px;
+  height: 14px;
+}
+
 .panel-head {
   display: flex;
   align-items: center;

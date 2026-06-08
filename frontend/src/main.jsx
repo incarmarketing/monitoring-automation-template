@@ -593,10 +593,38 @@ function Overview({ data, articles, jobs, notifications, setActiveSection, onOpe
           <Panel title="보고서 자동화" icon={CalendarDays} meta="일 3회">
             <ReportAutomationStatus reportHealth={reportHealth} actionsHealth={actionsHealth} historyHealth={historyHealth} />
           </Panel>
+          <Panel title="템플릿 안정화 적용" icon={ShieldCheck} meta="2026.06.08">
+            <StabilitySafeguards />
+          </Panel>
         </div>
       </section>
 
     </main>
+  );
+}
+
+function StabilitySafeguards() {
+  const items = [
+    { label: "중복 실행 방지", detail: "실패 30분 · 실행 중 20분 쿨다운" },
+    { label: "5분 감시 연동", detail: "신규 리스크 또는 15분 주기로 대시보드 갱신" },
+    { label: "기관 보도자료", detail: "기본 45일 / 10페이지 증분 수집" },
+    { label: "외부 cron 정리", detail: "낡은 job과 중복 job 자동 비활성화" },
+  ];
+  return (
+    <div className="stability-safeguards">
+      <p>공유 템플릿에도 운영 안정화 패치가 반영되었습니다.</p>
+      <div className="stability-list">
+        {items.map((item) => (
+          <div className="stability-item" key={item.label}>
+            <b>{item.label}</b>
+            <span>{item.detail}</span>
+          </div>
+        ))}
+      </div>
+      <a className="doc-link" href="https://github.com/incarmarketing/monitoring-automation-template/blob/main/docs/OPERATIONS_STABILITY.md" target="_blank" rel="noreferrer">
+        운영 안정화 문서 보기 <ExternalLink />
+      </a>
+    </div>
   );
 }
 
