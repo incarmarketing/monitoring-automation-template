@@ -1,0 +1,245 @@
+{
+  "articles": [
+    {
+      "article_hash": "demo001",
+      "report_date": "2026-06-08",
+      "report_slot": "08",
+      "window_label": "전일 18:00~당일 08:00",
+      "title": "샘플회사, 신규 서비스 출시로 고객 접점 확대",
+      "link": "#",
+      "source": "데모경제",
+      "keyword": "샘플회사",
+      "summary": "샘플회사가 신규 서비스를 출시하며 고객 접점 확대와 브랜드 인지도 개선 가능성을 보였습니다. 당사 직접 언급 기사로 우호 보도 활용 후보입니다.",
+      "pub_date": "2026-06-08T08:10:00+09:00",
+      "score": 92,
+      "category": "own",
+      "tone": "positive",
+      "risk_level": "LOW",
+      "status": "analyzed",
+      "cluster_size": 3
+    },
+    {
+      "article_hash": "demo002",
+      "report_date": "2026-06-08",
+      "report_slot": "08",
+      "window_label": "전일 18:00~당일 08:00",
+      "title": "업계, 수수료 체계 개편 논의 재점화",
+      "link": "#",
+      "source": "정책뉴스",
+      "keyword": "수수료",
+      "summary": "감독당국과 업계가 판매수수료 체계 개편 방향을 다시 논의하는 흐름입니다. 영업 현장과 채널 전략에 영향을 줄 수 있어 제도 변화 추적이 필요합니다.",
+      "pub_date": "2026-06-08T07:42:00+09:00",
+      "score": 88,
+      "category": "regulation",
+      "tone": "caution",
+      "risk_level": "MEDIUM",
+      "status": "analyzed",
+      "cluster_size": 6
+    },
+    {
+      "article_hash": "demo003",
+      "report_date": "2026-06-08",
+      "report_slot": "08",
+      "window_label": "전일 18:00~당일 08:00",
+      "title": "경쟁사, 디지털 채널 제휴 확대",
+      "link": "#",
+      "source": "비즈데모",
+      "keyword": "경쟁사명",
+      "summary": "경쟁사가 디지털 채널 제휴를 확대하며 고객 모집 효율 개선을 시도하고 있습니다. 직접 리스크는 아니지만 채널 경쟁 관점에서 비교 분석이 필요합니다.",
+      "pub_date": "2026-06-08T06:25:00+09:00",
+      "score": 76,
+      "category": "competitor",
+      "tone": "neutral",
+      "risk_level": "LOW",
+      "status": "analyzed",
+      "cluster_size": 4
+    },
+    {
+      "article_hash": "demo004",
+      "report_date": "2026-06-07",
+      "report_slot": "18",
+      "window_label": "당일 13:00~18:00",
+      "title": "소비자 보호 기준 강화, 내부통제 점검 확대",
+      "link": "#",
+      "source": "감독브리핑",
+      "keyword": "내부통제",
+      "summary": "소비자 보호 기준 강화와 내부통제 점검 확대가 업계 공통 이슈로 부각됐습니다. 정책성 보도로 직접 부정은 아니지만 후속 보도 흐름을 봐야 합니다.",
+      "pub_date": "2026-06-07T17:05:00+09:00",
+      "score": 81,
+      "category": "regulation",
+      "tone": "caution",
+      "risk_level": "MEDIUM",
+      "status": "analyzed",
+      "cluster_size": 2
+    },
+    {
+      "article_hash": "demo005",
+      "report_date": "2026-06-07",
+      "report_slot": "13",
+      "window_label": "당일 08:00~13:00",
+      "title": "샘플회사 브랜드평판 순위 상승",
+      "link": "#",
+      "source": "브랜드저널",
+      "keyword": "브랜드평판",
+      "summary": "샘플회사의 브랜드평판 순위가 상승했다는 보도입니다. 수치와 조사 기준을 확인하면 홍보 소재로 활용할 수 있습니다.",
+      "pub_date": "2026-06-07T10:30:00+09:00",
+      "score": 84,
+      "category": "own",
+      "tone": "positive",
+      "risk_level": "LOW",
+      "status": "analyzed",
+      "cluster_size": 5
+    },
+    {
+      "article_hash": "demo006",
+      "report_date": "2026-06-06",
+      "report_slot": "18",
+      "window_label": "당일 13:00~18:00",
+      "title": "업계 채용 경쟁 심화, 전문 인력 확보 관건",
+      "link": "#",
+      "source": "HR데일리",
+      "keyword": "설계사",
+      "summary": "업계 전반에서 전문 인력 확보 경쟁이 이어지고 있습니다. 인력 이동과 채용 조건 변화가 영업 조직 운영에 영향을 줄 수 있습니다.",
+      "pub_date": "2026-06-06T15:12:00+09:00",
+      "score": 69,
+      "category": "industry",
+      "tone": "neutral",
+      "risk_level": "LOW",
+      "status": "analyzed",
+      "cluster_size": 2
+    }
+  ],
+  "notifications": [
+    {
+      "id": "demo-noti-1",
+      "sent_at": "2026-06-08T08:05:00+09:00",
+      "channel": "kakao",
+      "message_type": "daily_report",
+      "title": "일일 모니터링 보고",
+      "body": "전일 18:00~당일 08:00 기준 리스크 LOW, 당사 긍정 1건, 주의 1건",
+      "link_url": "#",
+      "status": "success"
+    },
+    {
+      "id": "demo-noti-2",
+      "sent_at": "2026-06-08T07:00:00+09:00",
+      "channel": "kakao",
+      "message_type": "weekly_report",
+      "title": "주간 모니터링 보고",
+      "body": "주간 핵심 이슈와 정책성 보도 흐름 요약",
+      "link_url": "#",
+      "status": "success"
+    }
+  ],
+  "watch_runs": [
+    {
+      "run_key": "demo-watch-1",
+      "scanned_at": "2026-06-08T08:00:00+09:00",
+      "minutes_back": 5,
+      "scanned_count": 18,
+      "negative_count": 0,
+      "new_negative_count": 0,
+      "status": "success",
+      "message": "부정기사 신규 감지 없음"
+    }
+  ],
+  "report_runs": [
+    {
+      "run_key": "demo-daily-20260608-08",
+      "report_date": "2026-06-08",
+      "report_slot": "08",
+      "timestamp": "2026-06-08T08:05:00+09:00",
+      "window_label": "전일 18:00~당일 08:00",
+      "risk_level": "LOW",
+      "metrics": {
+        "collected": 42,
+        "analyzed": 28,
+        "own_mentions": 1,
+        "own_negative": 0
+      }
+    }
+  ],
+  "scraps": [
+    {
+      "article_hash": "demo001",
+      "created_at": "2026-06-08T08:20:00+09:00",
+      "article_snapshot": {
+        "article_hash": "demo001",
+        "title": "샘플회사, 신규 서비스 출시로 고객 접점 확대",
+        "source": "데모경제",
+        "summary": "홍보 소재로 활용 가능한 당사 긍정 보도입니다.",
+        "category": "own",
+        "tone": "positive",
+        "pub_date": "2026-06-08T08:10:00+09:00",
+        "link": "#"
+      }
+    }
+  ],
+  "media_relations": [
+    {
+      "name": "데모경제",
+      "status": "우호",
+      "grade": "A",
+      "owner": "담당자",
+      "contact_date": "2026-06-01",
+      "memo": "당사 보도 활용도 높음",
+      "hidden": false
+    },
+    {
+      "name": "정책뉴스",
+      "status": "중립",
+      "grade": "B",
+      "owner": "담당자",
+      "contact_date": "2026-05-28",
+      "memo": "정책성 보도 추적 필요",
+      "hidden": false
+    }
+  ],
+  "reporters": [
+    {
+      "id": 1,
+      "name": "샘플기자",
+      "media": "데모경제",
+      "status": "중립",
+      "contact_date": "2026-06-01",
+      "memo": "산업/기업 담당"
+    }
+  ],
+  "ads": [
+    {
+      "id": 1,
+      "media": "데모경제",
+      "spend_month": "2026-06",
+      "amount": 3000000,
+      "spend_type": "광고",
+      "memo": "데모 집행 내역"
+    },
+    {
+      "id": 2,
+      "media": "브랜드저널",
+      "spend_month": "2026-05",
+      "amount": 2000000,
+      "spend_type": "협찬",
+      "memo": "데모 협찬 내역"
+    }
+  ],
+  "aliases": [
+    { "host": "demo-news.example", "press_name": "데모경제" }
+  ],
+  "keywords": [
+    { "keyword": "샘플회사", "category": "own", "enabled": true },
+    { "keyword": "경쟁사명", "category": "competitor", "enabled": true },
+    { "keyword": "수수료", "category": "regulation", "enabled": true },
+    { "keyword": "내부통제", "category": "regulation", "enabled": true },
+    { "keyword": "설계사", "category": "industry", "enabled": true }
+  ],
+  "classification_feedback": [],
+  "ai_status": {
+    "model": "gemini-2.5-pro",
+    "status": "demo"
+  },
+  "quality_checks": {
+    "status": "demo",
+    "message": "데모 데이터 기준 화면입니다."
+  }
+}
