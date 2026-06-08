@@ -193,3 +193,9 @@ GitHub Actions만으로도 운영할 수 있지만, 실행 지연이 발생할 �
 3. 사용자에게 README와 `monitoring.profile.example.json`부터 읽게 합니다.
 
 그러면 다른 사람은 `Use this template` 버튼만 눌러 자기 저장소를 만들고, 회사명·키워드·API 키만 바꿔 시작할 수 있습니다.
+
+## 운영 안정화 참고
+
+자동 보고서와 5분 감시를 실제 업무에 쓰려면 중복 발송, 외부 cron 중복 job, 대시보드 갱신 지연, 금융당국 보도자료 과다 백필 같은 운영 문제가 생길 수 있습니다.
+
+공유 템플릿에는 이 문제를 줄이기 위한 기본 방어 로직을 포함했습니다. 자세한 내용은 [docs/OPERATIONS_STABILITY.md](docs/OPERATIONS_STABILITY.md)를 확인하세요.
